@@ -1,0 +1,20 @@
+{
+  "name": "test-automation-foundations",
+  "version": "1.0.0",
+  "description": "Test Automation Foundations course",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "unit-test": "mocha ./test/unit"
+  },
+  "author": "CesarJZO",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chai-http": "^4.4.0"
+  }
+}
